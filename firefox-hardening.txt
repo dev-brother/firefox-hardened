@@ -1,4 +1,3 @@
-```
 # Recommended Settings for hardening firefox
 
 # Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites.
@@ -38,5 +37,3 @@ media.peerconnection.enabled = false
 
 # Geolocation
 geo.enabled = false
-
-```
