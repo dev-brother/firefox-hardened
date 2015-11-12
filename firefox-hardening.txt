@@ -1,0 +1,42 @@
+```
+# Recommended Settings for hardening firefox
+
+# Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites.
+browser.safebrowsing.enabled = false
+browser.safebrowsing.downloads.enabled = false
+browser.safebrowsing.malware.enabled = false
+
+# Firefox stats collecting
+# [Stability and performance reports.](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
+datareporting.healthreport.service.enabled = false
+datareporting.healthreport.uploadEnabled = false
+
+# Telemetry data gathering
+# [Usage statistics.](https://www.mozilla.org/en-US/privacy/firefox/#telemetry)
+toolkit.telemetry.enabled = false
+
+# A binary plugin (closed-source) is shipped with Firefox since v38. It enables playback of encrypted media and lets you use e.g. Netflix without Microsoft Silverlight. To completely remove the plugin you would have to install an [EME-free](http://download.cdn.mozilla.net/pub/firefox/releases/latest/win32-EME-free/) build of Firefox.
+# [Encrypted Media Extensions (DRM)](https://wiki.mozilla.org/Media/EME)
+media.eme.enabled = false
+media.gmp-eme-adobe.enabled = false
+
+# Firefox connects to third-party (Telefonica) servers without asking for permission.
+# [Firefox Hello](https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online)
+loop.enabled = false
+
+# A third-party service for managing a reading list of articles.
+# [Pocket integration](https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox)
+browser.pocket.enabled = false
+
+# Search suggestions
+# Everything you type in the search box is sent to the search engine. Suggestions based on local history will still work.
+browser.search.suggest.enabled = false
+
+# Leaks the real IP when using VPN/TOR. [Description and demo](https://github.com/diafygi/webrtc-ips)
+# [WebRTC](https://wiki.mozilla.org/Media/WebRTC)
+media.peerconnection.enabled = false
+
+# Geolocation
+geo.enabled = false
+
+```
