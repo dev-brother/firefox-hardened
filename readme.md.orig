@@ -1,3 +1,5 @@
+##Original
+
 This list aims to block core Firefox features which actively leak data to third-party services (as opposed to attempts of sites to track you or otherwise passively collect information). As it isn't always easy to draw a strict line, the most critical passive data faucets like WebRTC are also mentioned.
 
 To disable specific functionality open ```about:config``` and change the value to ```false```.
