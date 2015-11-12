@@ -97,3 +97,31 @@ content.notify.ontimer boolean setting, and set it to true
 content.notify.interval integer setting, and set it to any number above 500000
 browser.sessionstore.interval to 30000 or 60000
 
+# it is generally not suggested to disable the check for updates as security issues will get fixed regularly by browser updates. This is only for hardcore folks.
+# Disable addon updates
+app.update.enabled = false
+app.update.auto = false
+browser.search.update = false
+extensions.update.enabled = false
+# Caution
+extensions.blocklist.enabled = false
+# Disable search and addon suggestions
+extensions.webservice.discoverURL = http://127.0.0.1
+browser.search.suggest.enabled = false
+
+# Disable Seer 
+# Seer is a component of Necko Predictive Network Actions. It keeps track of components that were loaded during the
+# visit of a page on the Internet so that the browser knows next time which resources to request from the web server.
+network.seer.enabled = false
+
+# Add-on metadata updating: Firefox displays information about each add-on that you have installed in the browser. 
+# You can click on the more link for instance in the add-on manager to display the author's description. 
+# This feature checks for updates to those information.
+extensions.getAddons.cache.enabled = false
+
+# Send Video to Device: Firefox sends Simple Service Discovery Protocol packages to discover casting devices such as 
+# Chromecast or Roku automatically to the local network.
+browser.casting.enabled = false
+
+
+
