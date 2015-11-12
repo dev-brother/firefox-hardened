@@ -1,10 +1,10 @@
-# firefox-debloat-scripted
-## Firefox hardening
+# firefox-hardened
+## Changes:
 
 * TODO: Amalgamate various prefs from other users - 20151112 done.
 * TODO: Add script user.js to automate these settings - 20151112 done.
 
-## Usage
+## Usage:
 
 * Drop user.js into same folder as prefs.js in your firefox folder.
 * Do not edit prefs.js, or if you do, backup prefs.js first.
@@ -17,7 +17,7 @@
 * http://heptagrama.com/best-firefox-configuration.htm
 * http://www.leavegooglebehind.com/how-tos/how-to-eradicate-google-from-firefox/
 
-## Ref:
+## Reference:
 
 * http://kb.mozillazine.org/User.js_file
 
