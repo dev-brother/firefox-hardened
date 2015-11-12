@@ -1,6 +1,8 @@
 // Recommended Settings for hardening firefox
 // https://github.com/swordsteel/firefox-debloat-scripted
 
+// for info on using user.js - http://kb.mozillazine.org/User.js_file
+
 // Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites.
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
