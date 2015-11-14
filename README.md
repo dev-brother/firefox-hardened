@@ -2,7 +2,9 @@
 
 ### Disclaimer: Use at your own risk. Check each entry in user.js before you drop this file into place. Settings may have unintended consequences on your user experience.
 
-## Undo: Delete user.js from your profile folder and restart firefox.
+## To Undo: 
+
+* Delete user.js from your profile folder and restart firefox.
 
 ## Changes:
 
